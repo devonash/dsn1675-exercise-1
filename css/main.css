@@ -8,6 +8,8 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+    
+    background-color: grey;
 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
@@ -33,7 +35,11 @@ img {
 .cap {
     position: absolute;
     bottom: 0;
-    padding: 0.3em;
+    padding: 0.8em;
+    color: white;
+    font-family: Georgia, serif;
+    background-color: rgba(0,0,0,0.3);
+    font-style: italic;
 }
 
 .fig {
@@ -44,6 +50,28 @@ img {
 
 .period {
     float: left;
+    padding: 1em;
+    width: 33.333%;
+    border-right: 1px solid #ccc;
+}
+
+.diet {
+    float: left;
+    padding: 1em;
+    width: 33.333%;
+    border-right: 1px solid #ccc;
+}
+
+.length {
+    float: left;
+    padding: 1em;
+    width: 33.333%;
+    border-right: 1px solid #ccc;
+}
+
+.dino {
+    background-color: #fff;
+    overflow: hidden;
 }
 
 
