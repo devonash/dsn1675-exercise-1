@@ -29,3 +29,31 @@ img {
   display: block;
   width: 100%;
 }
+
+.cap {
+    position: absolute;
+    bottom: 0;
+    padding: 0.3em;
+}
+
+.fig {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.period {
+    float: left;
+}
+
+
+
+
+    
+    
+
+    
+
+
+
+
